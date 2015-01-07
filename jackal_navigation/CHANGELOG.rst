@@ -2,6 +2,9 @@
 Changelog for package jackal_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2015-01-07)
+------------------
+
 0.4.0 (2014-12-12)
 ------------------
 * Removed redundant local and global costmaps.
