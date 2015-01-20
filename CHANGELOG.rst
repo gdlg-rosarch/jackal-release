@@ -2,6 +2,11 @@
 Changelog for package jackal_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2015-01-20)
+------------------
+* Support disabling the joystick for simulation when only the interactive markers are desired for teleop.
+* Contributors: Mike Purvis
+
 0.4.2 (2015-01-14)
 ------------------
 * Shorten timeout for the controller spawner's shutdown.
