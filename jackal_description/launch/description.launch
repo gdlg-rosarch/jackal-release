@@ -1,14 +1,9 @@
 <launch>
-  <arg name="accessories" default="false" />
-  <arg name="front_laser" default="false" />
-  <arg name="camera" default="false" />
-
+  <arg name="config" default="base" />
 
   <param name="robot_description"
-         command="$(find xacro)/xacro '$(find jackal_description)/urdf/jackal.urdf.xacro'
-                                      accessories:=$(arg accessories)
-                                      front_laser:=$(arg front_laser)
-                                      camera:=$(arg camera)
-                                      " />
+         command="$(find jackal_description)/scripts/config_xacro
+                    '$(find jackal_description)/urdf/configs/$(arg config)'
+                    '$(find jackal_description)/urdf/jackal.urdf.xacro'" />
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 </launch>
