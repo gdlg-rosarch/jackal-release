@@ -1,3 +1,29 @@
+## jackal (indigo) - 0.5.2-0
+
+The packages in the `jackal` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo jackal` on `Wed, 10 Feb 2016 15:07:52 -0000`
+
+These packages were released:
+- `jackal_control`
+- `jackal_description`
+- `jackal_msgs`
+- `jackal_navigation`
+- `jackal_tutorials`
+
+Version of package(s) in repository `jackal`:
+- upstream repository: https://github.com/jackal/jackal.git
+- release repository: https://github.com/clearpath-gbp/jackal-release.git
+- rosdistro version: `0.5.1-0`
+- old version: `0.5.1-0`
+- new version: `0.5.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## jackal (indigo) - 0.5.1-0
 
 The packages in the `jackal` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo jackal` on `Tue, 03 Feb 2015 03:31:35 -0000`
